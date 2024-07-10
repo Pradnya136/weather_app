@@ -10,6 +10,7 @@ body{
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-size: 25px;
+    color: #454242;
 }
 
 #main{
@@ -65,4 +66,7 @@ body{
     margin-top: -20px;
     margin-bottom: -30px;
    
+}
+.min_max{
+    margin-top: -20px;
 }
