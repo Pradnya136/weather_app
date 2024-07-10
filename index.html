@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <title>Weather Application</title>
+</head>
+<body>
+        <div id="main">
+            <!-- <div id="time">23:00</div> -->
+            <div id="action">
+                <input id="input_city" placeholder="Write city name here .." type="text"></input>
+                <button id="search_btn">Search</button>
+          
+                <h3 id="city_name">Name of the City</h3>
+                <h5 id="weather_description">How is the weather</h5>
+                <img id="weather_img" src="weather.png"/>
+                <h2 id="temperature">0°C</h2>
+                <h5><span id="min_temp">min temp </span>|<span id="max_temp"> max temp</span></h5>
+            </div>
+        </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
